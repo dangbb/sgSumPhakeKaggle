@@ -9,7 +9,7 @@ export FLAGS_eager_delete_tensor_gb=1.0
 export FLAGS_sync_nccl_allreduce=1
 export FLAGS_fraction_of_gpu_memory_to_use=0.98
 export CUDA_VISIBLE_DEVICES="0"
-export TASK_DATA_PATH="/content/Research/NLP/EMNLP2021-SgSum/data/custome_dataset"
+export TASK_DATA_PATH="/kaggle/input/processedvlsp/content/Research/NLP/EMNLP2021-SgSum/data/custome_dataset"
 
 
 python -u ./src/run_roberta.py \
