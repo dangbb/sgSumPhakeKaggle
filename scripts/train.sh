@@ -13,7 +13,7 @@ export FLAGS_sync_nccl_allreduce=1
 export FLAGS_fraction_of_gpu_memory_to_use=0.98
 export EVAL_SCRIPT_LOG=./log/eval.log
 export GLOG_v=3
-export TASK_DATA_PATH="/content/Research/NLP/EMNLP2021-SgSum/data/custome_dataset"
+export TASK_DATA_PATH="/kaggle/input/processedvlsp/content/Research/NLP/EMNLP2021-SgSum/data/custome_dataset"
 
 # check
 check_iplist
